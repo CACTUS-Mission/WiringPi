@@ -32,7 +32,7 @@ endif
 
 #DEBUG	= -g -O0
 DEBUG	= -O2
-CC	= gcc
+CC	= arm-linux-gnueabihf-gcc
 INCLUDE	= -I$(DESTDIR)$(PREFIX)/include
 CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe
 
